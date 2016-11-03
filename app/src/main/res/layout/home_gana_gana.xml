@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.herprogramacion.botones.ActividadBotones"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#3F51B5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ganagana" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <Button
+
+        android:id="@+id/boton_Auto"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:drawableLeft="@drawable/auto"
+        android:drawablePadding="8dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#1A237E"
+        android:background="#283593"
+        android:text="Automatico"
+        android:textSize="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:drawableLeft="@drawable/manual"
+        android:drawablePadding="8dp"
+        android:id="@+id/boton_Manual"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#1A237E"
+        android:background="#283593"
+        android:text="Manual"
+        android:textSize="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:drawableLeft="@drawable/config2"
+        android:drawablePadding="8dp"
+        android:id="@+id/boton_Config"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#1A237E"
+        android:background="#283593"
+        android:text="Configuración"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
+    </LinearLayout>
+</LinearLayout>
